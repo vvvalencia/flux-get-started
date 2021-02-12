@@ -7,7 +7,7 @@ metadata:
     run: my-nginx
 spec:
   ports:
-  - port: 9098
+  - port: 8085
     protocol: TCP
   selector:
     run: my-nginx
